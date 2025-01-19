@@ -1,4 +1,7 @@
 package core.domain
 
-class Client {
-}
+data class Client(
+    val id: String,
+    val name: String,
+    val email: String?
+)
